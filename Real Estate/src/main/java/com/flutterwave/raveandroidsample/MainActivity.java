@@ -34,6 +34,17 @@ public class MainActivity extends AppCompatActivity {
                 .setfName(MyConstants.FIRST_NAME)
                 .setlName(MyConstants.LAST_NAME)
                 .setEmail(MyConstants.EMAIL)
-                .setNarration("Testing out subscription payment");
+                .setNarration("Testing out subscription payment")
+                .setPublicKey(MyConstants.STAGING_PUBLIC_KEY)
+                .setSecretKey(MyConstants.STAGING_SECRET_KEY)
+                .setTxRef("1")
+                .acceptCardPayments(true)
+                .acceptAccountPayments(false)
+                .acceptGHMobileMoneyPayments(false)
+                .acceptMpesaPayments(false)
+                .onStagingEnv(true)
+                .allowSaveCardFeature(true)
+                .setSubAccounts(MyConstants.SUB_ACCOUNTS);
+
     }
 }
