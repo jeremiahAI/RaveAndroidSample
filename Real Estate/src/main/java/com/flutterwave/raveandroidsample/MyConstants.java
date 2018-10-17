@@ -3,8 +3,8 @@ package com.flutterwave.raveandroidsample;
 public class MyConstants {
     public static final String COUNTRY = "NG";
     public static final String CURRENCY = "NGN";
-    public static final String FIRSTNAME = "Jeremiah";
-    public static final String LASTNAME = "Ifeanyichukwu";
+    public static final String FIRST_NAME = "Jeremiah";
+    public static final String LAST_NAME = "Ifeanyichukwu";
     public static final String EMAIL = "varisiv@gmail.com";
 
 

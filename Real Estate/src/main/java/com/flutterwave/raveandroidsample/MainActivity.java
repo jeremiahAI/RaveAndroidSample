@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
                 .setAmount(500000)
                 .setCountry(MyConstants.COUNTRY)
                 .setCurrency(MyConstants.CURRENCY)
-                .setfName(MyConstants.FIRSTNAME)
-                .setlName(MyConstants.LASTNAME)
+                .setfName(MyConstants.FIRST_NAME)
+                .setlName(MyConstants.LAST_NAME)
                 .setEmail(MyConstants.EMAIL)
                 .setNarration("Testing out subscription payment");
     }
