@@ -11,6 +11,7 @@ public class MyConstants {
     public static final String FIRST_NAME = "Jeremiah";
     public static final String LAST_NAME = "Ifeanyichukwu";
     public static final String EMAIL = "varisiv@gmail.com";
+    public static final String PAYMENT_PLAN_ID = "868";
     public static final List<SubAccount> SUB_ACCOUNTS =
             new ArrayList<SubAccount>(){{
                 add(new SubAccount(

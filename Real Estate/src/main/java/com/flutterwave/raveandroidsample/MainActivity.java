@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
                 .acceptMpesaPayments(false)
                 .onStagingEnv(true)
                 .allowSaveCardFeature(true)
-                .setSubAccounts(MyConstants.SUB_ACCOUNTS);
+                .setSubAccounts(MyConstants.SUB_ACCOUNTS)
+                .setPaymentPlan(MyConstants.PAYMENT_PLAN_ID);
 
     }
 }
