@@ -27,6 +27,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void pay() {
         RavePayManager ravePayManager = new RavePayManager(MainActivity.this);
-        ravePayManager.setAmount(500000);
+        ravePayManager
+                .setAmount(500000)
+                .setCountry(MyConstants.COUNTRY)
+                .setCurrency(MyConstants.CURRENCY)
+                .setfName(MyConstants.FIRSTNAME)
+                .setlName(MyConstants.LASTNAME)
+                .setEmail(MyConstants.EMAIL)
+                .setNarration("Testing out subscription payment");
     }
 }
