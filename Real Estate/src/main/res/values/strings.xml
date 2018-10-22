@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Rave Android Sample</string>
+    <string name="app_name">RentALot</string>
+
+    <string name="house_description">\nFeaturing garden views, The Loft by Cityworkers has
+        accommodations with a garden and a terrace, around 0.6 km from Cathedral of Our Lady.
+        \n\nGuests staying at this apartment can use the free WiFi and a fully equipped kitchen.
+        \n\nThe apartment consists of 2 separate bedrooms, 2 bathrooms with free
+        toiletries and a hair dryer, and a seating area. A flat-screen TV is available. Popular
+        points of interest near the apartment include Plantin-Moretus Museum, MAS Museum Antwerp
+        and Groenplaats Antwerp. Deurne Airport is 8 km from the property. \n\nAntwerp Center is
+        a great choice for travelers interested in museums, clothes shopping and cafes. This is
+        our guests\' favorite part of Antwerp, according to independent reviews. \n\nWe speak your language!</string>
+    <string name="house_address">Grote Pieter Potstraat 1 Verdieping 2, Antwerp Center, 2000 Antwerp, Belgium</string>
+    <string name="house_name">The Loft by Citiworkers</string>
+    <string name="duration">6 months</string>
 </resources>

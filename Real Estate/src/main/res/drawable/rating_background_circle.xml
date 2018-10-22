@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+    <corners android:radius="@dimen/rating_circle_radius"/>
+    <size android:height="@dimen/rating_circle_diameter"
+        android:width="@dimen/rating_circle_diameter"/>
+    <solid android:color="@color/colorAccent"/>
+
+</shape>
