@@ -18,9 +18,4 @@ public class MyConstants {
                         "RS_E6860E55CFE13066B3AE2584DAE58ACB",
                         "3"));
     }};
-    //    Todo: Add your API keys here
-    public static final String STAGING_PUBLIC_KEY = "";
-    public static final String STAGING_SECRET_KEY = "";
-    public static final String LIVE_PUBLIC_KEY = "";
-    public static final String LIVE_SECRET_KEY = "";
 }

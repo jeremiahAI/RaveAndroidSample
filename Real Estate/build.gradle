@@ -14,6 +14,16 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField 'String', "LIVE_SECRET_KEY", RAVE_LIVE_SECRET_KEY
+            buildConfigField 'String', "LIVE_PUBLIC_KEY", RAVE_LIVE_PUBLIC_KEY
+            buildConfigField 'String', "STAGING_SECRET_KEY", RAVE_STAGING_SECRET_KEY
+            buildConfigField 'String', "STAGING_PUBLIC_KEY", RAVE_STAGING_PUBLIC_KEY
+        }
+        debug{
+            buildConfigField 'String', "LIVE_SECRET_KEY", RAVE_LIVE_SECRET_KEY
+            buildConfigField 'String', "LIVE_PUBLIC_KEY", RAVE_LIVE_PUBLIC_KEY
+            buildConfigField 'String', "STAGING_SECRET_KEY", RAVE_STAGING_SECRET_KEY
+            buildConfigField 'String', "STAGING_PUBLIC_KEY", RAVE_STAGING_PUBLIC_KEY
         }
     }
 }
