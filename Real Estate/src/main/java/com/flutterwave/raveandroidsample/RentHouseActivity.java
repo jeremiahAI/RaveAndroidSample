@@ -97,7 +97,7 @@ public class RentHouseActivity extends AppCompatActivity {
     private void pay() {
         RavePayManager ravePayManager = new RavePayManager(RentHouseActivity.this);
         ravePayManager
-                .setAmount(1)
+                .setAmount(300000)
                 .setCountry(MyConstants.COUNTRY)
                 .setCurrency(MyConstants.CURRENCY)
                 .setfName(MyConstants.FIRST_NAME)
@@ -111,7 +111,7 @@ public class RentHouseActivity extends AppCompatActivity {
                 .acceptAccountPayments(false)
                 .acceptGHMobileMoneyPayments(false)
                 .acceptMpesaPayments(false)
-                .onStagingEnv(false)
+                .onStagingEnv(true)
                 .allowSaveCardFeature(true)
                 .setSubAccounts(MyConstants.SUB_ACCOUNTS)
                 .setPaymentPlan(MyConstants.PAYMENT_PLAN_ID)
